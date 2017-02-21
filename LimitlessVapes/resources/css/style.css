@@ -99,8 +99,8 @@ section {
 /* ------------------------------------- */
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/smoke.jpg);
-    /*reperesnts a linear gradient of colours. Rgba specifies the opacity of the text */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/smoke.jpg); /*reperesnts a linear gradient of colours. Rgba specifies the opacity of the text */
+    background-attachment: fixed; /* Keeps the image still from moving to give it a cool effect*/
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -292,6 +292,11 @@ h2:after {
 
 /* ------------------------------------- */
 
+.steps  {
+  background-color: #F0F0F0;
+
+}
+
 .section-features .para {
     margin-bottom: 30px;
 }
@@ -389,6 +394,7 @@ h2:after {
     width: auto;
     margin-top: 30px;
     margin-right: 10px;
+
 }
 
 
@@ -410,7 +416,6 @@ h2:after {
 .city-feature {
 
 	margin-bottom: 5px;
-
 }
 
 /* ------------------------------------- */
@@ -422,8 +427,110 @@ h2:after {
 /* ------------------------------------- */
 
 .testimonials{
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(images/vape-clouds.png);
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url(images/vape-clouds.png);
     height:500px;
     background-size: cover;
     margin-top: 300px;
+    color: #fff; /* White colored font so it can be seen clearly with the image*/
+    background-attachment: fixed; /* Keeps the image still from moving to give it a cool effect*/
+    position: relative;
+}
+
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+blockquote::before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+cite img {
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* ------------------------------------- */
+
+
+/* 		      Sign Up 	        	  			 */
+
+
+/* ------------------------------------- */
+
+.plans{
+
+    background-color: #F0F0F0;
+    height: 700px;
+
+}
+
+.plan-box{
+
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 2px 2px #efefef;
+
+}
+
+.plan-box div{
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.plan-box div:first-child{
+
+    background-color: #fcfcfc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.plan-box div:last-child{
+    text-align: center;
+    border: 0;
+}
+
+.plan-price{
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 200;
+    color: #e67e22;
+
+}
+
+
+.plan-price span{
+    font-size: 50%;
+    font-weight: 300;
+}
+
+.plan-box ul {
+    list-style: none;
+}
+
+
+.plan-box ul li{
+
+    padding: 5px 0;
+
 }
