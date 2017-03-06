@@ -276,42 +276,59 @@ input[type=submit]:active {
 }
 
 .logo {
-    height: 100px;
+    height: 50px;
     width: auto;
     float: left;
-    margin-top: 20px;
+    margin: 5px 0;
 }
+
+/* Main Nav */
 
 .main-nav {
     float: right;
     list-style: none;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
-.main-nav li {
-    /* Inline block displays each navitagion link as a line and a margin size that is set proportionally next to each other*/
+.main-nav li {     /* Inline block displays each navitagion link as a line and a margin size that is set proportionally next to each other*/
     display: inline-block;
     margin-left: 40px;
 }
 
-.main-nav li a:link,
-/* This focuses on the hperlinked button and sets a bottom orange border with a transition. Visited means what it would look like upon clicking on it*/
-
+.main-nav li a:link, /* This focuses on the hperlinked button and sets a bottom orange border with a transition. Visited means what it would look like upon clicking on it*/
 .main-nav li a:visited {
-    padding: 6px 0;
+    padding: 10px 0;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 80%;
     border-bottom: 2px solid transparent;
-    transition: border-bottom 0.8s;
+    -webkit-transition: border-bottom 0.8s;
 }
 
-.main-nav li a:hover,
-/* This focuses what the button should achieve when it is on hover, the colour will produce a yellow bottom border*/
-
+.main-nav li a:hover, /* This focuses what the button should achieve when it is on hover, the colour will produce a yellow bottom border*/
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
+}
+
+/* Sticky Nav */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 2px #efefef;
+
+}
+
+.sticky .main-nav li a:link, /* This focuses on the hperlinked button and sets a bottom orange border with a transition. Visited means what it would look like upon clicking on it*/
+.sticky .main-nav li a:visited {
+    padding: 6px 0;
+    color: #555;
+    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
 }
 
 
