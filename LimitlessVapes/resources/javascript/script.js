@@ -35,5 +35,12 @@ $(document).ready(function() {
              $('html, body').animate({scrollTop: $('.js--sign-me-up').offset().top}, 2000);
           });
 
+          /* Animation scroll */
+
+          $('.js--1').waypoint(function(direction){
+
+                $('.js--1').addClass('animated fadingIn');
+          })
+
 
     });
