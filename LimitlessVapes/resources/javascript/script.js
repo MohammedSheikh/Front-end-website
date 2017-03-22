@@ -25,7 +25,7 @@ $(document).ready(function() {
 
           $('.js--how-it-works').click(function () {
              $('html, body').animate({scrollTop: $('.js--section-works-step').offset().top}, 2000);
-          });
+          });-+
 
           $('.js--location').click(function () {
              $('html, body').animate({scrollTop: $('.js--located-cities').offset().top}, 2000);
@@ -40,7 +40,28 @@ $(document).ready(function() {
           $('.js--1').waypoint(function(direction){
 
                 $('.js--1').addClass('animated fadingIn');
-          })
+          }, {
+              offset: '50%'
+          });
+
+          $('.js--2').waypoint(function(direction) {
+              $('.js--2').addClass('animated fadingUp');
+          }, {
+              offset: '50%'
+          });
+
+          $('.js--3').waypoint(function(direction) {
+              $('.js--3').addClass('animated fadingIn');
+          }, {
+              offset: '50%'
+          });
+
+          $('.js--4').waypoint(function(direction) {
+              $('.js--4').addClass('animated pulse');
+          }, {
+              offset: '50%'
+          });
+
 
 
     });
