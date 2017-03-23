@@ -24,17 +24,15 @@ The designs involved the creation of wireframes for the website, to gain a feel 
 
 1. Single Page Application (SPA) - The site is an SPA which allows the user to browse through the web application without being reloaded to a new page.
 
-2. Accessibility - I have created two background colours, black and white as two diffrent style sheets for accessibility purposes. If the end user is colour blind to black or white, they would have a choice in choosing their prefered background colour. This is not only for accessibility purposes but also for general preference over background colours. 
+2. The Navigation bar - This is positioned at the top and as the user scrolls to the next **section**, it is transitioned in through an animation. The navigation bar thereafter becomes fixed at the top throughout the rest of the site, however when the end user reaches the first **section**, it dissapears and is seen again when the user scrolls to the top of the page.
 
-3. The Navigation bar - This is positioned at the top and as the user scrolls to the next **section**, it is transitioned in through an animation. The navigation bar thereafter becomes fixed at the top throughout the rest of the site, however when the end user reaches the first **section**, it dissapears and is seen again when the user scrolls to the top of the page.
+3. Navigation/other buttons - These contain links to diffrent parts of the sectiion, as the user clicks on these, they are scrolled through the appropriate section, this feature is set through Jquery.
 
-4. Navigation/other buttons - These contain links to diffrent parts of the sectiion, as the user clicks on these, they are scrolled through the appropriate section, this feature is set through Jquery.
+4. CSS styles - Hovering over certain images brings out a cool zoom in zoom out finish. The colour of the images also change upon hovering over the images. This is achieved  through pure css styling.
 
-5. CSS styles - Hovering over certain images brings out a cool zoom in zoom out finish. The colour of the images also change upon hovering over the images. This is achieved  through pure css styling.
+5. Validation - The contact form is situated at the bottom of the site. This is validated so if the user submits without appropriate information, they are notified to input details again.
 
-6. Validation - The contact form is situated at the bottom of the site. This is validated so if the user submits without appropriate information, they are notified to input details again.
-
-7. Social media icons - These icons are contained within the footer at the bottom of the site. Upon hovering over these items, a cool effect is generated where the icons change in colour.
+6. Social media icons - These icons are contained within the footer at the bottom of the site. Upon hovering over these items, a cool effect is generated where the icons change in colour.
 
 ## 4. Testing Application
 
@@ -58,4 +56,13 @@ There are four principles that all visual deaign should include:
 1. Proximity: Items should be grouped together to create organisation.
 2. Alignment: Items should have a visual connection with something else on the page.
 3. Repetition: A consistent look and feel to a page should be presented to the end user.
+4. Contrast: A contrast of bigger fonts to smaller fonts. Font weight, colour and diffrent image sizes.
+
+## 7. conclusion
+
+I believe a lot of the fundamentals that have been covered for front end web design has become a lot clear for me to understand and apply to real life projects. These fundamentals have allowed me to understand how the core front end web technologies HTML5, CSS3 and JavaScript are interlinked to create powerful web applications, and the experiences I have gained from this module will encourage me to take on big projects in the future for clientele.
+
+8. References
+
+
 
