@@ -14,12 +14,48 @@ As the business has now been running for a year, a website would allow our busin
 
 ## 3. Designs
 
-The designs involved the creation of wireframes for the website, to gain a feel of how the website should look to the end user. 
+The designs involved the creation of wireframes for the website, to gain a feel of how the website should look to the end user.
 
 1. Desktop Application Designs
 2. Mobile Designs
 3. Tablet Designs
 
-### Feature designs and Future Changes 
+### 3.a Feature Designs
 
+1. Single Page Application (SPA) - The site is an SPA which allows the user to browse through the web application without being reloaded to a new page.
+
+2. Accessibility - I have created two background colours, black and white as two diffrent style sheets for accessibility purposes. If the end user is colour blind to black or white, they would have a choice in choosing their prefered background colour. This is not only for accessibility purposes but also for general preference over background colours. 
+
+3. The Navigation bar - This is positioned at the top and as the user scrolls to the next **section**, it is transitioned in through an animation. The navigation bar thereafter becomes fixed at the top throughout the rest of the site, however when the end user reaches the first **section**, it dissapears and is seen again when the user scrolls to the top of the page.
+
+4. Navigation/other buttons - These contain links to diffrent parts of the sectiion, as the user clicks on these, they are scrolled through the appropriate section, this feature is set through Jquery.
+
+5. CSS styles - Hovering over certain images brings out a cool zoom in zoom out finish. The colour of the images also change upon hovering over the images. This is achieved  through pure css styling.
+
+6. Validation - The contact form is situated at the bottom of the site. This is validated so if the user submits without appropriate information, they are notified to input details again.
+
+7. Social media icons - These icons are contained within the footer at the bottom of the site. Upon hovering over these items, a cool effect is generated where the icons change in colour.
+
+## 4. Testing Application
+
+
+1. All navigation buttons should be functional, and be taken to the appropriate pages.
+2. Animations should work correctly.
+3. Website should be responsive to other devices.
+4. Website should be responsive on browsers such as Google Chrome, mozilla firefox, Opera and Microsoft Edge.
+
+## 5. Results
+
+1. Are Navigation buttons functional and work correctly? Yes.
+2. Do Animations work correctly? Yes.
+3. Is website responsive to other devices? Yes, responsive on devices such as mobile phones and tablets.
+4. Is website responsive on other browsers? Yes.
+
+## 6. PARC Design
+
+There are four principles that all visual deaign should include:
+
+1. Proximity: Items should be grouped together to create organisation.
+2. Alignment: Items should have a visual connection with something else on the page.
+3. Repetition: A consistent look and feel to a page should be presented to the end user.
 
