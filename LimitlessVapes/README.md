@@ -16,9 +16,9 @@ As the business has now been running for a year, a website would allow our busin
 
 The designs involved the creation of wireframes for the website, to gain a feel of how the website should look to the end user.
 
-1. Desktop Application Designs
-2. Mobile Designs
-3. Tablet Designs
+1. [Desktop Application Designs](https://github.com/yaseen1995/Front-end-website/tree/master/LimitlessVapes/Wireframes%20for%20Desktop)
+
+2. [Mobile Designs](https://github.com/yaseen1995/Front-end-website/tree/master/LimitlessVapes/Wireframes%20for%20Mobile)
 
 ### 3.a Feature Designs
 
@@ -58,11 +58,15 @@ There are four principles that all visual deaign should include:
 3. Repetition: A consistent look and feel to a page should be presented to the end user.
 4. Contrast: A contrast of bigger fonts to smaller fonts. Font weight, colour and diffrent image sizes.
 
-## 7. conclusion
+## 7. Conclusion
 
 I believe a lot of the fundamentals that have been covered for front end web design has become a lot clear for me to understand and apply to real life projects. These fundamentals have allowed me to understand how the core front end web technologies HTML5, CSS3 and JavaScript are interlinked to create powerful web applications, and the experiences I have gained from this module will encourage me to take on big projects in the future for clientele.
 
-8. References
+## 8. References
 
-
+Haroopad - Used to create the README file
+Pencil - Used to create the sketches for the website
+Jquery - Used for implementation of some Javascript features
+Font Awsome - Used to add icons within the website
+Waypoints - Plugin to help implement Javascript
 
