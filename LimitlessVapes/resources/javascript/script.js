@@ -2,6 +2,7 @@ $(document).ready(function() {
 
           /* Sticky Nav bar */
 
+
     $('.js--section-features').waypoint(function(direction) {
         if (direction == "down") {
             $('nav').addClass('sticky');
@@ -11,6 +12,8 @@ $(document).ready(function() {
     }, {
       offset: '60px;'
     });
+
+
 
         /* Navigation scroll */
 
@@ -80,3 +83,11 @@ $(document).ready(function() {
           });
 
     });
+
+          function myMap() {
+          var mapProp= {
+              center:new google.maps.LatLng(41.653419,-73.577499),
+              zoom:5,
+          };
+          var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+          }

@@ -64,8 +64,6 @@
 
   .footer-nav{ font-size: 95%; }
 
-
-
 }
 
 /* Small phones to small tablets: from 481px to 767px */
@@ -86,6 +84,8 @@
     .main-nav li {
         display: block;
     }
+
+
 
     .main-nav li a:link,
     .main-nav li a:visited{
@@ -108,6 +108,7 @@
       float: inherit;
   }
 
+
   h1 {font-size: 180%; }
   h2 {font-size: 140%; }
 
@@ -127,7 +128,6 @@
   .testimonials{
       background-image: -webkit-linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url(images/vape-clouds.png);
       background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url(images/vape-clouds.jpg);
-      margin-top: 310%;
       color: #fff; /* White colored font so it can be seen clearly with the image*/
   }
 
@@ -166,6 +166,11 @@
       background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url(images/vape-clouds.jpg);
       margin-top: 315%;
       color: #fff; /* White colored font so it can be seen clearly with the image*/
+  }
+
+  .testimonials{
+      margin-top: -300px;
+
   }
 
 }
